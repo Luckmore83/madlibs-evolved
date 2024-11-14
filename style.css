@@ -1,0 +1,45 @@
+body {
+    margin: 10%;
+    background-color: lightgreen;
+    color: black;
+    font-family: Georgia;
+}
+h1 {
+    text-align: center;
+    font-family: 'Franklin Gothic Medium';
+    font-size: 70px;
+    text-shadow: 5px 5px brown;
+}
+h2 {
+    text-align: center;
+}
+
+.start {
+    margin-left: 415px;
+    width: 200px;
+    height: 50px;
+    border-radius: 25px;
+    border: 4px solid purple;
+    background-color: darkgreen;
+    color: aliceblue;
+    font-family: fantasy;
+    font-size: 24px;
+    box-shadow: 5px 5px darkolivegreen;
+}
+
+.start1 {
+    margin-left: 415px;
+    width: 200px;
+    height: 50px;
+    border-radius: 25px;
+    border: 4px solid purple;
+    background-color: darkgreen;
+    color: aliceblue;
+    font-family: fantasy;
+    font-size: 24px;
+    box-shadow: 5px 5px darkolivegreen;
+}
+
+.start, .start1:hover {
+    background-color: red;
+}

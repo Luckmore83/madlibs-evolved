@@ -1,0 +1,89 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Test Madlibs</title>
+    <link rel="stylesheet" a href="style.css">
+</head>
+<body>
+    <main>
+        <header>
+            <h1>Mad Libs</h1>
+        </header>
+        <section>
+            <h2>Skogscampingen</h2><br>
+            <button class="start" onclick="myFunction()">Starta</button><br><br>
+
+            
+        </section>
+    </main>
+    <script src="script.js">
+        function myFunction() {
+
+            var vehicle = prompt("Ett fordon");
+            var adjective = prompt("Ett adjektiv (beskriver något)");
+            var number = prompt("Ett antal");
+            var tech = prompt("En teknisk pryl");
+            var explative = prompt("Ett svärord");
+            var location = prompt("En plats");
+            var verb = prompt("Ett verb (något man gör)");
+            var adjective2 = prompt("Ett adjektiv som slutar på t (beskriver något, t.ex. kallt)");
+
+            if (vehicle, adjective, number , tech, explative, location, verb, adjective2 != null) {
+                
+            document.write("Vi körde ut till skogen i farsans " + vehicle + " och försökte hitta en " + adjective + " plats vid sjön. Jag hade bl.a. med mig en kortlek, " + number + " korvar med korvbröd och " + tech + " . Det hann knappt gå 5 min innan vi hörde hur farsan utbrast; " + explative + "!!! Han hade glömt grillkolen i " + location + " . Förutom att vi fick " + verb + " råa korvar så var det väldigt " + adjective2 + ".");
+            }
+        }
+    </script>
+
+    
+    <!-- <p>Vi körde ut till skogen i farsans (vehicle) och försökte hitta en 
+        (adjective) plats vid sjön. -->
+        <!-- Jag hade bl.a. med mig en kortlek, (number) korvar med korvbröd 
+         och (tech). Det hann knappt gå -->
+        <!-- 5 min innan vi hörde hur farsan utbrast; (explative!)! Han hade 
+         glömt grillkolen i (location).  -->
+        <!-- Förutom att vi fick (verb) råa korvar så var det väldigt (adjective2).
+          -->
+    <!-- </p>  -->
+    
+</section>
+<section>
+    <h2>Husvagnssemestern</h2>
+    <button class="start1" onclick="yourFunction()">Starta</button>
+
+    <script src="script2.js">
+        function yourFunction() {
+
+            var number1 = prompt("En siffra");
+            var adjective1 = prompt("Ett adjektiv som slutar på a (beskriver något t.ex. oljiga)");
+            var location1 = prompt("Plats i bestämd form (t.ex. torget, bussen)");
+            var city = prompt("En stad");
+            var adjective3 = prompt("Ännu ett adjektiv (beskriver något)");
+            var adjective4 = prompt("Ett till adjektiv (beskriver något)");
+            var country = prompt("Ett land");
+            var movie = prompt("En film");
+            var name = prompt("En persons namn");
+            var adjective5 = prompt("Ett adjektiv som slutar på a igen (beskriver något, t.ex. gula)");
+            var fmember = prompt("En släktmedlem, (ex. kusin, morbror)");
+            var verb1 = prompt("Ett verb (något man gör)");
+            var noun = prompt("Ett substantiv (ett namn, en plats eller en sak)");
+            var location2 = prompt("En plats i bestämd form igen (t.ex. torget, bussen)");
+            var verb2 = prompt("Ett verb i dåtid (något man gjort t.ex. körde)");
+            var adjective6 = prompt("Ett sista adjektiv (beskriver något)");
+
+            if (number1, adjective1, location1, city, adjective3, adjective4, country, movie, name, adjective5, fmember, verb1, noun, location2, verb2, adjective6 != null) {
+
+                document.write("Jag hade tagit " + number1 + " veckors semester. Jag hämtade upp min " + adjective1 + " familj på " + location1 + " i " + city + ". Husvagnen var " + adjective3 + ", " + adjective4 + " och redo för resan till " + country + ". Medan barnen tittade på " + movie + ", turades jag och " + name + " , min " + adjective5 + " " + fmember + " om att köra. Barnen började " + verb1 + " om deras" + noun + " så vi fick stanna till vid " + location2 + ". De kom inte överens, vi " + verb2 + " och förberrede oss för en " + adjective6 + " resa hemåt.");
+            }
+        }
+    </script>
+    <!-- Jag hade tagit *siffra* veckors semester. Jag hämtade upp min *adjektiv*
+     familj på *plats i bestämd form* i *stad*. Husvagnen var *adjektiv*, *adjektiv*
+     och redo för resan till *land*. Medan barnen tittade på *film*, turades jag och
+     *namn*, min *adjektiv* *släktmedlem* om att köra. Barnen började *verb* om deras
+     *substantiv* så vi fick stanna till vid *plats*. De kom inte överens, vi *verb* och 
+     förberrede oss för en *adjektiv* resa hemåt. -->
+</body>
+</html>
