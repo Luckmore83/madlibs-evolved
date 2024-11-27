@@ -1,45 +1,58 @@
-body {
-    margin: 10%;
-    background-color: lightgreen;
-    color: black;
-    font-family: Georgia;
+* {
+    box-sizing: border-box;
+    flex-direction: column;
+    justify-content: center;
+    padding: 0;
+    margin: 0;
+    text-align: center;
 }
+
+body {
+    font-family: Georgia;
+    background-color: black;
+}
+
+
+
+
 h1 {
     text-align: center;
     font-family: 'Franklin Gothic Medium';
     font-size: 70px;
     text-shadow: 5px 5px brown;
+    padding: 0;
+    color:aliceblue;
+    margin-top: 50px;
+    margin-right: 25px;
 }
+
+section {
+    justify-content: center;
+    flex-direction: column;
+    width: 400px;
+    height: 600px;
+}
+
 h2 {
     text-align: center;
+    padding-top: 60px;
+    margin-left: 83vh;
+    text-shadow: 2px 2px white;
+    color: red;
+    font-size: 40px;
 }
 
-.start {
-    margin-left: 415px;
-    width: 200px;
+button {
+    margin-top: 20px;
+    margin-left: 95vh;
+    width: 100px;
     height: 50px;
-    border-radius: 25px;
-    border: 4px solid purple;
-    background-color: darkgreen;
-    color: aliceblue;
-    font-family: fantasy;
-    font-size: 24px;
-    box-shadow: 5px 5px darkolivegreen;
+    font-size: 16px;
+    font-weight: bold;
 }
 
-.start1 {
-    margin-left: 415px;
-    width: 200px;
-    height: 50px;
-    border-radius: 25px;
-    border: 4px solid purple;
-    background-color: darkgreen;
-    color: aliceblue;
-    font-family: fantasy;
-    font-size: 24px;
-    box-shadow: 5px 5px darkolivegreen;
-}
-
-.start, .start1:hover {
-    background-color: red;
+button:hover {
+    color: black !important;
+    background-color: greenyellow !important;
+    cursor: pointer;
 }
