@@ -1,6 +1,6 @@
 * {
     box-sizing: border-box;
-    flex-direction: column;
+    /* flex-direction: column; */
     justify-content: center;
     padding: 0;
     margin: 0;
@@ -26,9 +26,9 @@ h1 {
 
 section {
     justify-content: center;
-    flex-direction: column;
-    width: 400px;
-    height: 600px;
+    /* flex-direction: column; */
+    width: 100vh;
+    height: 100vh;
 }
 
 h2 {
@@ -53,4 +53,11 @@ button:hover {
     color: black !important;
     background-color: greenyellow !important;
     cursor: pointer;
+}
+
+.soon {
+    text-align: center;
+    margin-top: 200px;
+    font-size: 30px;
+    margin-left: 80vh;
 }
